@@ -3,7 +3,6 @@ import data from '../../data/data';
 
 const initialState = {
     score: 0,
-    totalQuestionsAttempted:0,
     page:1,
     questionsObject:data[0],
     selectedQuestions:{},
@@ -32,7 +31,6 @@ const questionReducer = (state = initialState, action) => {
                   ...state,
                   selectedQuestions:action.payload,
                   score:state.questionsObject.answer===action.payload[state.page]?++state.score:state.score,
-                  totalQuestionsAttempted:++state.totalQuestionsAttempted
               }
         
         default:
