@@ -1,0 +1,3 @@
+export const LEFT_BUTTON="LEFT_BUTTON"
+export const RIGHT_BUTTON="RIGHT_BUTTON"
+export const SELECT_OPTION="SELECT_OPTION"

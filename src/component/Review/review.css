@@ -1,0 +1,15 @@
+.review-answers {
+  height: 500px;
+  width: 200px;
+  /* background-color: orangered; */
+  border: 2px solid #000000;
+}
+
+.review-text {
+  text-align: center;
+  margin-top: 140px;
+}
+
+.answers {
+  text-align: center;
+}

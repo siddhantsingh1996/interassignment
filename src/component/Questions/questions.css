@@ -1,0 +1,77 @@
+.questions-area {
+  height: 500px;
+  width: 80%;
+  /* background-color: blue; */
+  margin-left: 80px;
+  border: 2px solid #000000;
+}
+
+.attempt-questions-area {
+  height: 50px;
+  width: 80%;
+  /* background-color: green; */
+  margin: 130px auto 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-button {
+  margin-top: 3px;
+}
+
+.right-button {
+  margin-top: 3px;
+}
+
+.question {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.answers-input {
+  display: block;
+}
+
+.options-container {
+  width: 200px;
+  height: 400px;
+  display: block;
+}
+
+.answers-input {
+  text-align: center;
+}
+
+.option1 {
+  margin-right: 6px;
+  margin-top: 20px;
+}
+
+.option2 {
+  margin-top: 20px;
+}
+.option3 {
+  margin-top: 20px;
+}
+.option4 {
+  margin-top: 20px;
+}
+
+.submit-btn {
+  height: 30px;
+  width: 130px;
+  background-color: rgb(230, 22, 64);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-wrapper {
+  width: 98%;
+  display: flex;
+  justify-content: end;
+  margin-top: 36px;
+  cursor: pointer;
+}
